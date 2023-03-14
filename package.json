@@ -1,0 +1,34 @@
+{
+  "name": "z-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/cli.js",
+  "bin": "./bin/cli.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
+ 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "脚手架",
+    "z-cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "chalk": "^4.1.2",
+    "commander": "^10.0.0",
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.9",
+    "execa": "^7.1.0",
+    "figlet": "^1.5.2",
+    "fs-extra": "^11.1.0",
+    "inquirer": "^8.2.5",
+    "ora": "^5.1.2",
+    "program": "^1.0.0"
+  }
+}
